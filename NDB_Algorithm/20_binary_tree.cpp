@@ -16,7 +16,7 @@ using namespace std;
 
 const int number = 15;
 
-// 하나의 노드 정보를 선언
+// 하나의 노드 정보를 선
 typedef struct node * treePointer;
 typedef struct node {
 	int data;
