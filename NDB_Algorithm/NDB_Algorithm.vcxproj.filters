@@ -19,7 +19,7 @@
     <Filter Include="소스 파일\Graph">
       <UniqueIdentifier>{24ac8101-c2e5-4321-933e-fc4e46145b47}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\Tree">
+    <Filter Include="소스 파일\Algorithm">
       <UniqueIdentifier>{fb4d8bab-3d95-4194-9a66-613bf8fc024c}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -82,7 +82,10 @@
       <Filter>소스 파일\Graph</Filter>
     </ClCompile>
     <ClCompile Include="20_binary_tree.cpp">
-      <Filter>소스 파일\Tree</Filter>
+      <Filter>소스 파일\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="21_dynamic_programming.cpp">
+      <Filter>소스 파일\Algorithm</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

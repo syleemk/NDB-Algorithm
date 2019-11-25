@@ -35,11 +35,11 @@
 #include <stdio.h>
 //퀵정렬은 깔끔한 구현을 위해 재귀함수를 사용하는 경우가 많음
 
-int number = 10;
-int data[10] = { 3,7,4,5,6,10,12,4,2,1 };
+int number = 11;
+int data[11] = { 24,32,11,15,62,3,9,13,22,5,10};
 
 void quickSort(int * data, int start, int end) {
-	if (start >= end) {// 원소가 1개인 경우
+	if (start >= end) {// 원소가 1개인 경우 
 		return;
 	}
 
